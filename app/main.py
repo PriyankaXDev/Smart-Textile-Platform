@@ -16,7 +16,8 @@ def home():
 def health_check():
     return {
         "status": "healthy",
-        "service": "Smart Textile Manufacturing Platform"
+        "service": "Smart Textile Manufacturing Platform",
+        "version": "1.0.0",
     }
 
 
