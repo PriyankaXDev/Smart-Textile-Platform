@@ -1,0 +1,8 @@
+services:
+  smart-textile:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smart-textile-compose
+    ports:
+      - "8000:8000"
